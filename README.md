@@ -20,6 +20,6 @@ Optionally, visit: https://eduardclt.github.io/ where the project is hosted.
 
 ## Assumptions I made about the problem
 
-I can use HTML to get user input rather than hardcoded or automated input.
-It will be nice to be able to add a bunch of rovers and make them move whenever you want.
-The rovers must not be able to go out of the plateau.
+1. I can use HTML to get user input rather than hardcoded or automated input.
+2. It will be nice to be able to add a bunch of rovers and make them move whenever you want.
+3. The rovers must not be able to go out of the plateau.
