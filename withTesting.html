@@ -74,7 +74,7 @@
 
 <script>
 
-	describe('Plat: 5,5 Rover1: 1,2,N Move: LMLMLMLMM Rover2: 3,3,E Move: MMRMMRMRRM', () => {
+	describe('Plat: 5,5 Rover1: 1,2,N Move: LMLMLMLMM Rover2: 3,3,E Move: MMRMMRMRRM Rover3: 0,0,N Move: mmmrmmml', () => {
 		it('Test 1',    () => {
 			let platX = 5;
 			let platY = 5;
@@ -82,7 +82,7 @@
 			plateau;
 			expect(plateau).toBe(true);
 
-
+			//rover 1
 			let roverX = 1;
 			let roverY = 2;
 			let orient = "N";
@@ -98,7 +98,8 @@
 			expect(rover.x).toBe(1);
 			expect(rover.y).toBe(3);
 			expect(rover.orientation).toBe("N");
-		
+			
+			//rover 2 
 			roverX = 3;
 			roverY = 3;
 			orient = "E";
@@ -115,6 +116,24 @@
 			expect(rover.x).toBe(5);
 			expect(rover.y).toBe(1);
 			expect(rover.orientation).toBe("E");
+
+			//rover 3
+			roverX = 0;
+			roverY = 0;
+			orient = "N";
+			roverGen = generateRover(roverX, roverY, orient);
+			roverGen;
+			expect(roverGen).toBe(true);
+
+
+			roverID = 3;
+			moveCommands = "mmmrmmml";
+			move = moveRover(roverID, moveCommands);	
+			move;
+			rover = allRovers[roverID - 1];
+			expect(rover.x).toBe(3);
+			expect(rover.y).toBe(3);
+			expect(rover.orientation).toBe("N");
 		});
 	});
 
