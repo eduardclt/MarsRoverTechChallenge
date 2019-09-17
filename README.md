@@ -1,10 +1,10 @@
 # MarsRoverTechChallenge
 
-My soution for the google marsrovertechchallenge. 
+My solution for the google marsrovertechchallenge. 
 See the challenge here: 
 https://code.google.com/archive/p/marsrovertechchallenge/ 
 
-## Instalation 
+## Installation 
 
 There are nothing that needs to be installed. Simply clone or download the project files and open index.html in your browser.
 Optionally, visit: https://eduardclt.github.io/ where the project is hosted.
