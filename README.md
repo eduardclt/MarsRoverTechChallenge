@@ -4,11 +4,15 @@ My solution for the google marsrovertechchallenge.
 See the challenge here: 
 https://code.google.com/archive/p/marsrovertechchallenge/ 
 
+## General Notes
+
+There are two 'versions' of the project. The one is simply with unit testing and the other without.
+
 ## Installation 
 
 There are nothing that needs to be installed. Simply clone or download the project files and open index.html in your browser.
 Optionally, visit: https://eduardclt.github.io/ where the project is hosted.
-(Please not version on the link above does not have unit testing)
+(Please note version on the link above does not have unit testing)
 
 ## Usage
 
