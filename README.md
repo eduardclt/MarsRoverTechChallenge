@@ -8,6 +8,7 @@ https://code.google.com/archive/p/marsrovertechchallenge/
 
 There are nothing that needs to be installed. Simply clone or download the project files and open index.html in your browser.
 Optionally, visit: https://eduardclt.github.io/ where the project is hosted.
+(Please not version on the link above does not have unit testing)
 
 ## Usage
 
